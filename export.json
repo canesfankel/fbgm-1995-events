@@ -560,11 +560,39 @@
     },
     {
       "key": "aiTradesFactor",
-      "value": 0.7
+      "value": 0.65
     },
     {
       "key": "numGames",
       "value": 16
+    },
+    {
+      "key": "completionFactor",
+      "value": 0.89
+    },
+    {
+      "key": "passFactor",
+      "value": 0.90
+    },
+    {
+      "key": "sackFactor",
+      "value": 0.94
+    },
+    {
+      "key": "intFactor",
+      "value": 1.14
+    },
+    {
+      "key": "passYdsFactor",
+      "value": 1.08
+    },
+    {
+      "key": "scrambleFactor",
+      "value": 1.01
+    },
+    {
+      "key": "pace",
+      "value": 1.08
     }
   ],
   "scheduledEvents": [
