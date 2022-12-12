@@ -485,116 +485,65 @@
       ]
     }
   ],
-  "gameAttributes": [
-    {
-      "key": "luxuryPayroll",
-      "value": 44000
-    },
-    {
-      "key": "maxContract",
-      "value": 3500
-    },
-    {
-      "key": "minContract",
-      "value": 350
-    },
-    {
-      "key": "salaryCap",
-      "value": 37000
-    },
-    {
-      "key": "injuryRate",
-      "value": 0.0017272727272727277
-    },
-    {
-      "key": "minPayroll",
-      "value": 27000
-    },
-    {
-      "key": "confs",
-      "value": [
-        {
-          "cid": 0,
-          "name": "American Football Conference"
-        },
-        {
-          "cid": 1,
-          "name": "National Football Conference"
-        }
-      ]
-    },
-    {
-      "key": "divs",
-      "value": [
-        {
-          "did": 0,
-          "cid": 0,
-          "name": "AFC East"
-        },
-        {
-          "did": 1,
-          "cid": 0,
-          "name": "AFC Central"
-        },
-        {
-          "did": 2,
-          "cid": 0,
-          "name": "AFC West"
-        },
-        {
-          "did": 3,
-          "cid": 1,
-          "name": "NFC East"
-        },
-        {
-          "did": 4,
-          "cid": 1,
-          "name": "NFC Central"
-        },
-        {
-          "did": 5,
-          "cid": 1,
-          "name": "NFC West"
-        }
-      ]
-    },
-    {
-      "key": "aiTradesFactor",
-      "value": 0.65
-    },
-    {
-      "key": "numGames",
-      "value": 16
-    },
-    {
-      "key": "completionFactor",
-      "value": 0.89
-    },
-    {
-      "key": "passFactor",
-      "value": 0.90
-    },
-    {
-      "key": "sackFactor",
-      "value": 0.94
-    },
-    {
-      "key": "intFactor",
-      "value": 1.14
-    },
-    {
-      "key": "passYdsFactor",
-      "value": 1.08
-    },
-    {
-      "key": "scrambleFactor",
-      "value": 1.01
-    },
-    {
-      "key": "pace",
-      "value": 1.08
-    }
-  ],
+  "gameAttributes": {
+    "luxuryPayroll": 44000,
+    "maxContract": 3500,
+    "minContract": 350,
+    "salaryCap": 37000,
+    "injuryRate": 0.0017272727272727277,
+    "minPayroll": 27000,
+    "confs": [
+      {
+        "cid": 0,
+        "name": "American Football Conference"
+      },
+      {
+        "cid": 1,
+        "name": "National Football Conference"
+      }
+    ],
+    "divs": [
+      {
+        "did": 0,
+        "cid": 0,
+        "name": "AFC East"
+      },
+      {
+        "did": 1,
+        "cid": 0,
+        "name": "AFC Central"
+      },
+      {
+        "did": 2,
+        "cid": 0,
+        "name": "AFC West"
+      },
+      {
+        "did": 3,
+        "cid": 1,
+        "name": "NFC East"
+      },
+      {
+        "did": 4,
+        "cid": 1,
+        "name": "NFC Central"
+      },
+      {
+        "did": 5,
+        "cid": 1,
+        "name": "NFC West"
+      }
+    ],
+    "aiTradesFactor": 0.65,
+    "numGames": 16,
+    "completionFactor": 0.89,
+    "passFactor": 0.9,
+    "sackFactor": 0.94,
+    "intFactor": 1.14,
+    "passYdsFactor": 1.08,
+    "scrambleFactor": 1.01,
+    "pace": 1.08
+  },
   "scheduledEvents": [
     {
       "type": "expansionDraft",
